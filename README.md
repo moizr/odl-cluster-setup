@@ -9,9 +9,9 @@ odl-cluster-setup
 6. mvn clean install
 7. Goto the openflowplugin distribution
 8. From this repositiory copy the following files
-    - configuration1/01-md-sal.xml to configuration/initial
-    - configuration1/*.conf to configuration/initial
-    - configuration1/myrun.sh to .
+    - configuration-1/01-md-sal.xml to configuration/initial
+    - configuration-1/*.conf to configuration/initial
+    - configuration-1/myrun.sh to .
 9. Zip up the openflowplugin distribution and copy it on to all nodes where you intend to run opendaylight
 10. After copying and unzipping the files on the destination member do the following,
     - Edit myrun.sh and change the name of the member. Note that configuration1 requires atleast two members to function.
