@@ -6,7 +6,7 @@ odl-cluster-setup
 3. Get the opendaylight openflowplugin sources
 4. mvn clean install
 5. Goto the openflowplugin distribution
-8. From this repositiory copy the following files
+8. From this Github repositiory copy the following files
     - configuration-1/01-md-sal.xml to configuration/initial
     - configuration-1/*.conf to configuration/initial
     - configuration-1/myrun.sh to .
